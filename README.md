@@ -45,4 +45,5 @@ Bugs:
 
 - Uppercased accented characters after punctuation are for some reason NOT lowercased.
 - Not tested on non UTF-8 encodings
+- Only tested on Linux.
 

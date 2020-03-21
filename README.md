@@ -26,6 +26,7 @@ When removing punctuation, the program lowercases initials that follow ".?)!".
 
 Limits: 
 - The OCR does not try to guess the bounding box for the main text.
+- Proper names after sentence-ending punctuation are also lowercased, which can give a clue of the presence
 
 Bugs:
 - Uppercased accented characters after punctuation are for some reason NOT lowercased.
